@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     font-family: 'Roboto';
     font-size: 18px;
+    overflow-x: hidden;
 }
 
 p, span{
@@ -97,15 +98,18 @@ p, span{
     padding: 17px 28px;
     border-radius: 30px; 
     margin: 20px 25px 0 0;
+    transition: background 0.2s ease-in-out;
 }
 .header-button_o,
 .header-button:hover{
     background: #fff;
     color: #005388;
+    transition: background 0.2s ease-in-out;
 }
 .header-button_o:hover{
     background: transparent;
     color: #fff;
+    transition: background 0.2s ease-in-out;
 }
 
 /* Works */
@@ -128,6 +132,11 @@ p, span{
     margin-bottom: 40px;
     box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
     background-color: #fcfbfb;
+    transition: box-shadow 0.17s ease-in-out;
+}
+.work-item:hover{
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.17s ease-in-out;
 }
 .work-img{
     display: flex;
@@ -154,6 +163,9 @@ p, span{
     line-height: 40px;
     letter-spacing: 0.9px;
     color: #005388;
+}
+.work-link:hover{
+    text-decoration: none;
 }
 
 /* Action */
@@ -198,6 +210,11 @@ p, span{
     padding: 15px 35px 18px 35px;
     border-radius: 40px;
     cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+.action-submit:hover{
+    background: #72bb3a;
+    transition: background 0.2s ease-in-out;
 }
 
 /* About */
@@ -291,6 +308,11 @@ p, span{
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.9px;
+    transition: background 0.2s ease-in-out;
+}
+.about-submit:hover{
+    background: #72bb3a;
+    transition: background 0.2s ease-in-out;
 }
 .about-submit:focus{
     outline: none;
@@ -340,6 +362,9 @@ p, span{
     color: #005388;
     text-decoration: none;
 }
+.form-link:hover{
+    text-decoration: underline;
+}
 
 /* Footer */
 
@@ -361,6 +386,9 @@ p, span{
 }
 .footer-link{
     display: inline;
+}
+.footer-link:hover{
+    text-decoration: none;
 }
 
 /* Media */

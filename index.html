@@ -11,7 +11,13 @@
 		<meta name="author" content="Александр Заломанин">
 
 		<!-- Иконка, которая будет на вкладке в браузере -->
-		<link rel="icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/site.webmanifest">
+		<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 		<!-- Заголовок на вкладке в браузере -->
 		<title>Портфолио</title>
 
@@ -19,6 +25,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:100,300,400,500" rel="stylesheet">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -28,16 +35,16 @@
 		<div class="row">
 			<div class="container">
 				<div class="header-text">
-					<h1 class="block-title">Делаю сайты <span>для вашего бизнеса</span></h1>
-					<p class="block-description header-description">
+					<h1 class="block-title wow fadeInRight" >Делаю сайты <span>для вашего бизнеса</span></h1>
+					<p class="block-description header-description wow fadeInRight" data-wow-delay="0.15s">
 							<span>Я Имя Фамилия</span> 
 							разрабатываю сайты для бизнеса. 
 							Продающие одностраничники,
 							имиджевые сайты-визитки 
 							<span>или полноценные интернет-магазины.</span>
 					</p>
-					<a href="#" class="header-button">Примеры работ</a>
-					<a href="#" class="header-button header-button_o">Обсудить проект</a>
+					<a href="#" class="header-button wow fadeInUp" data-wow-delay="0.75s">Примеры работ</a>
+					<a href="#" class="header-button header-button_o wow fadeInUp" data-wow-delay="0.9s">Обсудить проект</a>
 				</div>
 			</div>
 		</div>
@@ -46,10 +53,10 @@
 	<section class="works">
 		<div class="row">
 			<div class="container">
-				<h2 class="block-title">Мои работы</h2>
+				<h2 class="block-title wow fadeInLeft">Мои работы</h2>
 				<div class="work-items">
 					<!-- work-item start -->
-					<div class="work-item">
+					<div class="work-item wow fadeIn">
 						<div class="work-img">
 							<img src="img/work-img-01.jpg" alt="image work">
 						</div>
@@ -63,7 +70,7 @@
 					</div>
 					<!-- work-item end -->
 					<!-- work-item start -->
-					<div class="work-item">
+					<div class="work-item wow fadeIn">
 						<div class="work-img">
 							<img src="img/work-img-02.jpg" alt="image work">
 						</div>
@@ -86,13 +93,13 @@
 			<div class="container">
 				<div class="action-container">
 					<div class="action-text">
-						<h2 class="block-title">Нужен сайт</h2>
-						<p class="block-description action-description">
+						<h2 class="block-title wow fadeInLeft">Нужен сайт</h2>
+						<p class="block-description action-description wow fadeInLeft">
 							Если у вас есть задумки по сайту давайте обсудим их.
 							Я соорентирую по срокам и стоимости.
 						</p>
 					</div>
-					<form action="#" class="action-form">
+					<form action="#" class="action-form wow fadeInDown">
 						<input type="text" class="action-input" placeholder="e-mail">
 						<input type="submit" value="Отправить" class="action-submit">
 					</form>
@@ -106,42 +113,42 @@
 			<div class="container">
 				<div class="about-container">
 					<div class="about-experience">
-						<h2 class="block-title">Про опыт</h2>
-						<p class="block-description about-description">
+						<h2 class="block-title wow fadeInLeft">Про опыт</h2>
+						<p class="block-description about-description wow fadeInLeft">
 							Делать сайты я учился в Академии верстки на курсе "Веб-разработчик"
 						</p> 
-						<img src="img/certificate.jpg" class="about-img" alt="about img">
+						<img src="img/certificate.jpg" class="about-img wow fadeIn" alt="about img">
 					</div>
 					<div class="about-text">
-						<h2 class="block-title">Связаться со мной</h2>
+						<h2 class="block-title wow fadeInRight">Связаться со мной</h2>
 						<div class="about-contacts">
-							<div class="contacts-item">
+							<div class="contacts-item wow fadeInRight" data-wow-delay="0.1s">
 								<div class="contact-name">Телефон:</div>
 								<div class="contact-value"><a href="tel:8-888-888-88-88" class="contact-link" target="_blank">8-888-888-88-88</a></div>
 							</div>
-							<div class="contacts-item">
+							<div class="contacts-item wow fadeInRight" data-wow-delay="0.2s">
 								<div class="contact-name">E-mail:</div>
 								<div class="contact-value"><a href="mailto:111@gmail.gom" class="contact-link" target="_blank">111@gmail.gom</a></div>
 							</div>
-							<div class="contacts-item">
+							<div class="contacts-item wow fadeInRight" data-wow-delay="0.3s">
 								<div class="contact-name">Vk:</div>
 								<div class="contact-value"><a href="http://vk.com/username" class="contact-link" target="_blank">vk.com/username</a></div>
 							</div>
-							<div class="contacts-item">
+							<div class="contacts-item wow fadeInRight" data-wow-delay="0.4s">
 								<div class="contact-name">Fb:</div>
 								<div class="contact-value"><a href="http://facebook.com/username" class="contact-link" target="_blank">facebook.com/username</a></div>
 							</div>
-							<div class="contacts-item">
+							<div class="contacts-item wow fadeInRight" data-wow-delay="0.5s">
 								<div class="contact-name">Git:</div>
 								<div class="contact-value"><a href="http://github.com/username" class="contact-link" target="_blank">github.com/username</a></div>
 							</div>
 						</div>
 						<form action="#" class="about-form">
-							<input type="text" class="about-input" placeholder="Имя Фамилия">
-							<input type="text" class="about-input" placeholder="Телефон">
-							<input type="email" class="about-input" placeholder="E-mail">
-							<input type="submit" class="about-submit" value="Отправить">
-							<div class="form-check">
+							<input type="text" class="about-input wow fadeIn" data-wow-delay="0.1s" placeholder="Имя Фамилия">
+							<input type="text" class="about-input wow fadeIn" data-wow-delay="0.2s" placeholder="Телефон">
+							<input type="email" class="about-input wow fadeIn" data-wow-delay="0.3s" placeholder="E-mail">
+							<input type="submit" class="about-submit wow fadeIn" data-wow-delay="0.4s" value="Отправить">
+							<div class="form-check wow fadeInUp" data-wow-delay="0.5s">
 								<input type="checkbox" class="about-input-checkbox" id="about-input-checkbox">
 								<label for="about-input-checkbox" class="about-checkbox-label"></label>
 								<p class="form-description">
@@ -159,7 +166,7 @@
 		<div class="row">
 			<div class="container">
 				<div class="footer-content">
-					<p class="footer-text">2018, Сайт портфолио Имя Фамилия</p>
+					<p class="footer-text ">2018, Сайт портфолио Имя Фамилия</p>
 					<span><a href="#" class="footer-link">Политика конфиденциальности.©</a></span>
 					<span><a href="#" class="footer-link">Договор оферты </a></span>
 				</div>
@@ -167,4 +174,11 @@
 		</div>
 	</footer>
 </body>
+<script src="js/wow.min.js"></script>
+<script>
+	var wow = new WOW({
+		mobile: false
+	});
+	wow.init();
+</script>
 </html>
